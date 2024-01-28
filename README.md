@@ -30,25 +30,19 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<div>
-    <a href="https://www.loom.com/share/1e2cf37ee69147ca9e7909c3cdc605e7">
-      <p>Vite + React - 28 January 2024 - Watch Video</p>
-    </a>
-    <a href="https://www.loom.com/share/1e2cf37ee69147ca9e7909c3cdc605e7">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/1e2cf37ee69147ca9e7909c3cdc605e7-with-play.gif">
-    </a>
-  </div>
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+<div style="position: relative; padding-bottom: 50.416666666666664%; height: 0;"><iframe src="https://www.loom.com/embed/c3c12656faef4ec1a33663932f6ecb30?sid=9e0ea452-ddae-4321-ac87-71458df29d5c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+- I've encountered issues with the calender component. Originally instead of being redirected to a different website, I was going to have custom
+- calenders for each of the businesses. However when transitioning the calenders were showing up in their proper place, but I have a challenging time on making the
+- calendar component expand to the size of the entire card container. That is how I pivoted to making a singular button that shows the calender
 
+- I also had several issues trying to have the components show up. I tried using DataTypes <Card> until I was able to solve it by declaring a cardData array, and using the mapping function.
+- This eventually worked for me
+
+- Last one was making the website responsive and a grid of 3. I wanted to imitate the first project with a layout of three, but most of the css styling was not responsive. Either the image was bigger than the card component, and the only look that was ok in design was making it full width. That is when i realize that I needed to calculate the width in the card component differently. To make it Adjust in size, I used percentages to stay away from px's
 ## License
 
     Copyright [yyyy] [name of copyright owner]

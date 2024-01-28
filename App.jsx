@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import { Card } from './Card';
+import Calendar from './Calendar'; // Import your Calendar component
+
 
 function App() {
+
+  const [showCalendar, setShowCalendar] = useState(false);
+  const handleButtonClick = () => {setShowCalendar(!showCalendar);};
+
   const cardData = [
     {
       imgSrc: 'src/assets/pilates.jpg',
@@ -71,7 +77,11 @@ function App() {
       <div>
         <h1>Welcome</h1>
         <h3>Click the link to see what events are happening with each business</h3>
-      <div>
+        <div className="button-container">
+          <button onClick={handleButtonClick}>Click Me</button>
+          {showCalendar && <Calendar onHideCalendar={() => setShowCalendar(false)} />}
+        </div>
+        <div>
         <div className="card-container">
           {cardData.map((card, index) => (
             <Card

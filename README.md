@@ -31,11 +31,11 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented required features:
 
 <div>
-    <a href="https://www.loom.com/share/bf29992ba83748b09aa02ceff33f7713">
-      <p>Library | Loom - 28 January 2024 - Watch Video</p>
+    <a href="https://www.loom.com/share/1e2cf37ee69147ca9e7909c3cdc605e7">
+      <p>Vite + React - 28 January 2024 - Watch Video</p>
     </a>
-    <a href="https://www.loom.com/share/bf29992ba83748b09aa02ceff33f7713">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/bf29992ba83748b09aa02ceff33f7713-with-play.gif">
+    <a href="https://www.loom.com/share/1e2cf37ee69147ca9e7909c3cdc605e7">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/1e2cf37ee69147ca9e7909c3cdc605e7-with-play.gif">
     </a>
   </div>
 <!-- Replace this with whatever GIF tool you used! -->

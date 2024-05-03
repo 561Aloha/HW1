@@ -1,13 +1,7 @@
-# HW1
+# Web Development Project 1 
 
-
-
-# Web Development Project 1 - *Local Community Board*
-
-Submitted by: **Your Name Here**
-
-This web app: **Community Event**
-
+Submitted by: Dianna Dimambro
+This web app: Utah Itenary
 Time spent: **36** hours spent in total
 
 ## Required Features
